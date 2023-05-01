@@ -1,0 +1,63 @@
+.buttons button{
+    margin: 0 10px;
+}
+
+/* todo app */
+.todoApp{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.todoApp input{
+    border: 2px solid var(--todo-inp);
+    width: 400px;
+    border-radius: 9px;
+    padding: 8px 15px;
+    font-size: 18px;
+    outline: none;
+    background-color: var(--todo-inp-bg);
+    color: var(--todo-inp-self-color);
+}
+
+.inpSection{
+    display: flex;
+    align-items: center;
+}
+
+.todoApp ul{
+    margin-top: 20px;
+    width: 400px;
+    margin-right: 70px;
+    border-radius: 4px;
+    user-select: none;
+    overflow: hidden;
+}
+.todoApp ul li{
+    color: var(--todo-inp-color);
+    list-style-type: none;
+    font-size: 18px;
+    background: var(--todo-ul-li);
+    padding: 10px 7px;
+    width: 100%;
+}
+
+.todoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todoItem svg{
+    margin-right: 10px;
+    color: var(--todo-inp-color);
+    cursor: pointer;
+}
+
+/* todo1 */
+.todo1{
+    border: none !important;
+    background: transparent !important;
+    display: inline-block !important;
+    width: 75% !important;
+}

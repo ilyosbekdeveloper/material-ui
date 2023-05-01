@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5252528a;
+    border-radius: 7px;
+    margin: 10px auto;
+    padding: 20px 14px;
+}
+.row .col-3{
+    width: 15%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px;
+    background: #383838;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.row .col-3:hover svg{
+    transform: translateY(7px);
+}
+.col-3 svg{
+    color: aliceblue;
+    font-size: 3rem;
+    transition: all .2s;
+}
+
+.m-0{
+    margin-bottom: 0 !important;
+}
+
+.icons-icons{
+    padding-bottom: 40px !important;
+}

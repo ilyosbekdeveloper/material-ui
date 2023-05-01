@@ -1,0 +1,46 @@
+:root{
+    /* header section variebles */
+    --header-bg: #122135;
+    --header-color: #fff;
+
+    /* main section variables */
+    --main-bg: #090909;
+    --main-h1-color: #b5b5b5;
+    --link-color: #f0f8ff;
+    --link-hover: #d5d5d5;
+
+    /* button section variables */
+    --todo-inp: #0d09ff;
+    --todo-inp-bg: #f0f8ff3e;
+    --todo-inp-color: #fff;
+    --todo-ul-li: #747474a2;
+    --todo-inp-self-color: #d5d5d5;
+
+}
+.App.light{
+    --header-bg: #eaeaea;
+    --header-color: #1d1d1d;
+    
+    /* main section variables */
+    --main-bg: #ffffff;
+    --main-h1-color: #3f3f3f;
+    --link-color: #173b58;
+    --link-hover: #757474;
+
+    /* button section variables */
+    --todo-inp: #0d09ff;
+    --todo-inp-bg: #f0f8ff3e;
+    --todo-inp-color: #e1e1e1;
+    --todo-ul-li: #15096dd8;
+    --todo-inp-self-color: #122;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.active{
+    border-bottom: 2px solid #ff00008e;
+}
